@@ -18,6 +18,6 @@
     "import/prefer-default-export": "off",
     "prettier/prettier": ["error"],
     "trailingComma": "all",
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": "0"
   }
 }

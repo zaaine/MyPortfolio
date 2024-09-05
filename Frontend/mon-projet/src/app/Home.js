@@ -1,11 +1,11 @@
 // import logo from "./logo.svg";
 import React from "react";
-import "../styles/home.css";
+import "../styles/_pages.scss/_home.scss/home.scss";
 
 function Home() {
   return (
     <div>
-      <p>Hello</p>
+      <p>Hello Portfolio</p>
     </div>
   );
 }
