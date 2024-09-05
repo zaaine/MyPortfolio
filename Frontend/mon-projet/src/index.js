@@ -6,6 +6,7 @@ import "./index.css";
 
 import Home from "./app/Home";
 import NotFound from "./pages/NotFound";
+import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 
 import theme from "./components/theme";
@@ -20,6 +21,7 @@ root.render(
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/Portfolio" element={<Portfolio />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
