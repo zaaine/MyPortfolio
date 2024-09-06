@@ -1,13 +1,17 @@
-// import logo from "./logo.svg";
 import React from "react";
 import "../styles/_pages.scss/_home.scss/home.scss";
+
+// composants
 import Hero from "../components/Hero";
+import Cards from "../components/Cards";
+import Carrousel from "../components/Carrousel";
 
 function Home() {
   return (
     <div>
-      <p>Hello Portfolio</p>
       <Hero />
+      <Cards />
+      <Carrousel />
     </div>
   );
 }

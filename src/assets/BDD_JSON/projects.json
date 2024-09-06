@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Bookie",
+      "description": "Proposer des locations immobilières pour la ville de Marseille.",
+      "image": "../images/Bookie.jpeg",
+      "languages": ["HTML", "CSS"]
+    },
+    {
+      "id": 2,
+      "name": "Oh My Food",
+      "description": "Commander en ligne dans des prestigieux restaurants parisiens.",
+      "image": "https://example.com/ecommerce-image.jpg",
+      "languages": ["HTML", "SASS"]
+    },
+    {
+      "id": 3,
+      "name": "Kasa",
+      "description": "Louer votre appartement entre étudiants.",
+      "image": "https://example.com/weather-app-image.jpg",
+      "languages": ["React", "SASS"]
+    },
+    {
+      "id": 4,
+      "name": "ArgentBank",
+      "description": "L'application bancaire sécurisée pour vos transactions financières.",
+      "image": "https://example.com/blog-platform-image.jpg",
+      "languages": ["HTML", "CSS", "React", "API network"]
+    }
+  ]
+}
