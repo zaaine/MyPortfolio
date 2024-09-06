@@ -1,17 +1,17 @@
 import React from "react";
 import "../styles/_pages.scss/_home.scss/home.scss";
+import projectsData from "../assets/BDD_JSON/projects.json";
 
 // composants
 import Hero from "../components/Hero";
-import Cards from "../components/Cards";
+
 import Carrousel from "../components/Carrousel";
 
 function Home() {
   return (
     <div>
       <Hero />
-      <Cards />
-      <Carrousel />
+      <Carrousel projects={projectsData.projects} />
     </div>
   );
 }
