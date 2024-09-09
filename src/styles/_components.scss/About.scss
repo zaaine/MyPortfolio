@@ -1,0 +1,25 @@
+@import "../_mixins.scss/Mixins.scss";
+
+.about_container {
+  @include flex-center;
+  flex-direction: column;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+
+  .about_title {
+    @include title-h2;
+    width: 90%;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  .about_images {
+  }
+
+  p {
+    font-size: large;
+    width: 90%;
+    text-align: justify;
+  }
+}
