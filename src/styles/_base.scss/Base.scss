@@ -1,0 +1,8 @@
+@import "../_mixins.scss/Mixins.scss";
+
+// Titles
+.title_portfolio {
+  @include title-h2;
+  @include flex-center;
+  margin-top: 4rem;
+}

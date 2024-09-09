@@ -17,7 +17,7 @@ import {
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { FaLinkedin, FaMedium } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 import "../styles/_components.scss/NavBar.scss";
 
 export default function NavBar() {
@@ -66,8 +66,8 @@ export default function NavBar() {
           <Stack direction={"row"} spacing={7}>
             {isLargerThanMD ? (
               <>
-                <Button variant="ghost" onClick={scrollToAbout}>
-                  About
+                <Button variant="ghost">
+                  <Link to="/about">About</Link>
                 </Button>
 
                 <Button variant="ghost" onClick={scrollToPortfolio}>

@@ -6,7 +6,8 @@ import {
   ButtonGroup,
   useBreakpointValue,
 } from "@chakra-ui/react";
-import Cards from "./Cards"; // Import du composant Cards
+import Cards from "./Cards";
+import "../styles/_base.scss/Base.scss";
 
 export default function Carrousel({ projects }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -34,7 +35,7 @@ export default function Carrousel({ projects }) {
 
   // Gérer le nombre de colonnes en fonction des breakpoints
   const gridColumns = useBreakpointValue({
-    base: 1, // 1 colonne en dessous de 350px
+    // base: 1, // 1 colonne en dessous de 350px
     sm: 1, // 1 colonne en dessous de 768px
     md: 2, // 2 colonnes au-dessus de 768px
   });
@@ -47,6 +48,10 @@ export default function Carrousel({ projects }) {
 
   return (
     <div>
+      <h2 id="portfolio" className="title_portfolio">
+        {" "}
+        Portfolio{" "}
+      </h2>
       <Grid
         templateColumns={`repeat(${gridColumns}, 1fr)`}
         gap={6}

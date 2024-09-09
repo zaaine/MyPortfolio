@@ -4,7 +4,6 @@ import projectsData from "../assets/BDD_JSON/projects.json";
 
 // composants
 import Hero from "../components/Hero";
-
 import Carrousel from "../components/Carrousel";
 
 function Home() {
