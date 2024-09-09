@@ -27,7 +27,13 @@ const images = importAll(
 
 export default function Cards({ project }) {
   return (
-    <Card key={project.id} maxW="sm" m="4" height="30rem" width="25rem">
+    <Card
+      key={project.id}
+      maxW={{ base: "100%", sm: "sm", md: "md", lg: "lg" }}
+      m="4"
+      height="30rem"
+      width="25rem"
+    >
       {" "}
       <CardBody
         display="flex"
