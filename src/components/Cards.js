@@ -14,7 +14,6 @@ import {
 } from "@chakra-ui/react";
 import bookieImage from "../assets/images/home_img/Bookie.jpeg";
 
-// Import dynamique des images depuis le dossier assets/images
 const importAll = (r) =>
   r.keys().reduce((acc, item) => {
     acc[item.replace("./", "")] = r(item);

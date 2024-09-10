@@ -35,7 +35,6 @@ export default function Carrousel({ projects }) {
 
   // Gérer le nombre de colonnes en fonction des breakpoints
   const gridColumns = useBreakpointValue({
-    // base: 1, // 1 colonne en dessous de 350px
     sm: 1, // 1 colonne en dessous de 768px
     md: 2, // 2 colonnes au-dessus de 768px
   });
@@ -74,7 +73,7 @@ export default function Carrousel({ projects }) {
         alignContent="center"
         flexDirection="row"
         width="100%"
-        gap="15%" // Utilisation de la valeur de l'espacement en %
+        gap="15%"
       >
         <Button onClick={prevProjects} isDisabled={isPrevDisabled}>
           Précédent

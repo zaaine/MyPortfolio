@@ -19,6 +19,7 @@ import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { FaLinkedin, FaMedium } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "../styles/_components.scss/NavBar.scss";
+import logo from "../assets/AZ_logo.png";
 
 export default function NavBar() {
   const [scroll, setScroll] = useState(false);
@@ -58,10 +59,15 @@ export default function NavBar() {
         zIndex="sticky"
         position="fixed"
         as="header"
+        justifyContent={"space-between"}
         alignItems={"center"}
-        justifyContent={"flex-end"}
         w="100%"
       >
+        <Button variant="ghost">
+          <Link to="/">
+            <img src={logo} alt="Retour page accueil" className="nav_logo" />
+          </Link>
+        </Button>
         <Flex alignItems={"center"}>
           <Stack direction={"row"} spacing={7}>
             {isLargerThanMD ? (

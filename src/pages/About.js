@@ -5,7 +5,7 @@ import "../styles/_components.scss/About.scss";
 const importAll = (r) =>
   r.keys().map((path) => ({
     path: r(path),
-    name: path.replace("./", ""), // Utiliser le nom de l'image comme clé unique
+    name: path.replace("./", ""),
   }));
 const images = importAll(
   require.context("../assets/images/about_img", false, /\.(png|jpe?g|svg)$/),
