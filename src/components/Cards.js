@@ -12,7 +12,7 @@ import {
   ButtonGroup,
   Image,
 } from "@chakra-ui/react";
-import bookieImage from "../assets/images/Bookie.jpeg";
+import bookieImage from "../assets/images/home_img/Bookie.jpeg";
 
 // Import dynamique des images depuis le dossier assets/images
 const importAll = (r) =>
@@ -22,7 +22,7 @@ const importAll = (r) =>
   }, {});
 
 const images = importAll(
-  require.context("../assets/images", false, /\.(png|jpe?g|svg)$/),
+  require.context("../assets/images/home_img", false, /\.(png|jpe?g|svg)$/),
 );
 
 export default function Cards({ project }) {
