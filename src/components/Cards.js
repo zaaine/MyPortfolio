@@ -12,7 +12,7 @@ import {
   ButtonGroup,
   Image,
 } from "@chakra-ui/react";
-import bookieImage from "../assets/images/home_img/Bookie.jpeg";
+import bookieImage from "../assets/images/home_img/Bookie.webp";
 
 const importAll = (r) =>
   r.keys().reduce((acc, item) => {
@@ -21,7 +21,11 @@ const importAll = (r) =>
   }, {});
 
 const images = importAll(
-  require.context("../assets/images/home_img", false, /\.(png|jpe?g|svg)$/),
+  require.context(
+    "../assets/images/home_img",
+    false,
+    /\.(png|jpe?g|svg|webp)$/,
+  ),
 );
 
 export default function Cards({ project }) {
@@ -43,8 +47,7 @@ export default function Cards({ project }) {
           src={project.id === 1 ? bookieImage : images[project.image]}
           alt={project.name}
           borderRadius="lg"
-          height="150px"
-          objectFit="cover"
+          height="210px"
           width="100%"
         />
         <Stack mt="6" spacing="3" flexGrow="1">

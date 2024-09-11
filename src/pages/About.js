@@ -8,7 +8,11 @@ const importAll = (r) =>
     name: path.replace("./", ""),
   }));
 const images = importAll(
-  require.context("../assets/images/about_img", false, /\.(png|jpe?g|svg)$/),
+  require.context(
+    "../assets/images/about_img",
+    false,
+    /\.(png|jpe?g|svg|webp)$/,
+  ),
 );
 
 function About() {
@@ -43,7 +47,10 @@ function About() {
             key={image.name}
             src={image.path}
             alt={image.name}
+            width="245px" // Largeur calculée
+            height="184px"
             borderRadius="md"
+            loading="lazy"
           />
         ))}
       </Grid>
@@ -78,7 +85,10 @@ function About() {
             key={image.name}
             src={image.path}
             alt={image.name}
+            height="290px"
+            width="355px"
             borderRadius="md"
+            loading="lazy"
           />
         ))}
       </Grid>

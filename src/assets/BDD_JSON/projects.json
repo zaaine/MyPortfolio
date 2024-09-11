@@ -4,28 +4,28 @@
       "id": 1,
       "name": "Bookie",
       "description": "Proposer des locations immobilières pour la ville de Marseille.",
-      "image": "Bookie.jpeg",
+      "image": "Bookie.webp",
       "languages": ["HTML", "CSS"]
     },
     {
       "id": 2,
       "name": "Oh My Food",
       "description": "Commander en ligne dans des prestigieux restaurants parisiens.",
-      "image": "OhMyFood.jpg",
+      "image": "OhMyFood.webp",
       "languages": ["HTML", "SASS"]
     },
     {
       "id": 3,
       "name": "Kasa",
       "description": "Louer votre appartement entre étudiants.",
-      "image": "Kasa.jpg",
+      "image": "Kasa.webp",
       "languages": ["React", "SASS"]
     },
     {
       "id": 4,
       "name": "ArgentBank",
       "description": "L'application bancaire sécurisée pour vos transactions financières.",
-      "image": "ArgentBank.jpg",
+      "image": "ArgentBank.webp",
       "languages": ["HTML", "CSS", "React", "API network"]
     }
   ]
