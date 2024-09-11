@@ -14,6 +14,7 @@ import {
   IconButton,
   useMediaQuery,
   useDisclosure,
+  Tooltip,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { FaLinkedin, FaMedium } from "react-icons/fa";
@@ -64,9 +65,19 @@ export default function NavBar() {
         w="100%"
       >
         <Button variant="ghost">
-          <Link to="/">
-            <img src={logo} alt="Retour page accueil" className="nav_logo" />
-          </Link>
+          <Tooltip
+            label="Retour à l'accueil"
+            aria-label="infobulle retour accueil"
+          >
+            <Link to="/">
+              <img
+                src={logo}
+                alt="Retour page accueil"
+                className="nav_logo"
+                style={{ cursor: "help" }}
+              />
+            </Link>
+          </Tooltip>
         </Button>
         <Flex alignItems={"center"}>
           <Stack direction={"row"} spacing={7}>

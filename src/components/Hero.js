@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@chakra-ui/react";
+import { Button, Tooltip } from "@chakra-ui/react";
 import Profile from "../assets/profile.png";
 
 import "../styles/_components.scss/Hero.scss";
@@ -29,18 +29,20 @@ export default function Hero() {
           innovants."{" "}
         </p>
         <div className="hero_button">
-          <Button
-            colorScheme={color}
-            bg={`${color}.400`}
-            rounded={"full"}
-            px={6}
-            _hover={{
-              bg: `${color}.500`,
-            }}
-            onClick={handleEmail}
-          >
-            Me contacter
-          </Button>
+          <Tooltip label="Envoyer un mail" aria-label="infobulle envois mail">
+            <Button
+              colorScheme={color}
+              bg={`${color}.400`}
+              rounded={"full"}
+              px={6}
+              _hover={{
+                bg: `${color}.500`,
+              }}
+              onClick={handleEmail}
+            >
+              Me contacter
+            </Button>
+          </Tooltip>
         </div>
       </div>
     </div>
