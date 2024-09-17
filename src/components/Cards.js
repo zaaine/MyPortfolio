@@ -12,6 +12,7 @@ import {
   ButtonGroup,
   Image,
 } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 import bookieImage from "../assets/images/home_img/Bookie.webp";
 
 const importAll = (r) =>
@@ -29,6 +30,11 @@ const images = importAll(
 );
 
 export default function Cards({ project }) {
+  const navigate = useNavigate();
+
+  const goToDescription = () => {
+    navigate(`/description/${project.id}`);
+  };
   return (
     <Card
       key={project.id}
@@ -75,7 +81,7 @@ export default function Cards({ project }) {
           width="100%"
           gap="15%"
         >
-          <Button variant="solid" colorScheme="blue">
+          <Button variant="solid" colorScheme="blue" onClick={goToDescription}>
             Description
           </Button>
           <Button variant="ghost" colorScheme="blue">

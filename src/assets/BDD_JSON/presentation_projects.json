@@ -1,0 +1,52 @@
+{
+  "presentation_projects": [
+    {
+      "id": 1,
+      "name": "Bookie",
+      "languages": ["HTML", "CSS"],
+      "Mission": "Proposer des locations immobilières pour la ville de Marseille.",
+      "description": "Réaliser un site responsive en respectant une maquette client.",
+      "livraison": "Restituer un site aux normes W3C avec un code qualitatif.",
+      "landscape": "Bookie.webp",
+      "screenshot": "Bookie_screen.png",
+      "link_projet": "https://bookie_portfolio@zaaine.com",
+      "Link_Git": "https://github.com/zaaine/Booki_projet.git"
+    },
+    {
+      "id": 2,
+      "name": "Oh My Food",
+      "languages": ["HTML", "SASS"],
+      "Mission": "Commander en ligne dans des prestigieux restaurants parisiens.",
+      "description": "Développer une application de commande en ligne pour les restaurants.",
+      "livraison": "Restituer une application responsive et optimisée pour les utilisateurs. Ajouter des animations pour rendre le site attrayant",
+      "landscape": "OhMyFood.webp",
+      "screenshot": "screen-OhMyFood.webp",
+      "link_projet": "https://ohmyfood_portfolio@zaaine.com",
+      "Link_Git": "https://github.com/zaaine/OhMyFood_projet.git"
+    },
+    {
+      "id": 3,
+      "name": "Kasa",
+      "languages": ["React", "SASS"],
+      "Mission": "Louer votre appartement entre étudiants.",
+      "description": "Développer une application de location d'appartements pour étudiants.",
+      "livraison": "Restituer une plateforme de location complète et fluide.",
+      "landscape": "Kasa.webp",
+      "screenshot": "screen-Kasa.webp",
+      "link_projet": "https://kasa_portfolio@zaaine.com",
+      "Link_Git": "https://github.com/zaaine/Kasa_projet.git"
+    },
+    {
+      "id": 4,
+      "name": "ArgentBank",
+      "languages": ["HTML", "CSS", "React", "API network"],
+      "Mission": "L'application bancaire sécurisée pour vos transactions financières.",
+      "description": "Développer une application bancaire sécurisée pour la gestion des finances.",
+      "livraison": "Restituer une application sécurisée et responsive pour les utilisateurs.",
+      "landscape": "ArgentBank.webp",
+      "screenshot": "screen-ArgentBank.webp",
+      "link_projet": "https://argentbank_portfolio@zaaine.com",
+      "Link_Git": "https://github.com/zaaine/ArgentBank_projet.git"
+    }
+  ]
+}

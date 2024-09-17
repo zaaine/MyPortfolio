@@ -11,6 +11,7 @@ import About from "./pages/About";
 
 import theme from "./components/theme";
 import Layout from "./components/Layout";
+import Description from "./pages/Description";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,7 @@ root.render(
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/Portfolio" element={<Portfolio />} />
+            <Route path="/description/:id" element={<Description />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
