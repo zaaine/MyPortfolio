@@ -39,10 +39,21 @@
     margin-bottom: 1.4rem;
     font-size: larger;
   }
+
   .hero_button {
     margin-top: 2rem;
     display: flex;
     justify-content: flex-end;
+  }
+}
+
+.hero_links {
+  display: flex;
+  gap: 4rem;
+  cursor: pointer;
+
+  :hover IconButton {
+    background-color: aqua;
   }
 }
 
@@ -54,6 +65,9 @@
   .hero_button {
     margin-top: 1rem;
     justify-content: center !important ;
+  }
+  .hero_links {
+    justify-content: space-around;
   }
 }
 @media (max-width: $layout-breakpoint-small) {

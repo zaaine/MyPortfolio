@@ -47,10 +47,7 @@ export default function Carrousel({ projects }) {
 
   return (
     <div>
-      <h2 id="portfolio" className="title_portfolio">
-        {" "}
-        Portfolio{" "}
-      </h2>
+      <h2 className="title_portfolio"> Portfolio </h2>
       <Grid
         templateColumns={`repeat(${gridColumns}, 1fr)`}
         gap={6}

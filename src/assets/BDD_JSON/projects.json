@@ -5,28 +5,32 @@
       "name": "Bookie",
       "description": "Proposer des locations immobilières pour la ville de Marseille.",
       "image": "Bookie.webp",
-      "languages": ["HTML", "CSS"]
+      "languages": ["HTML", "CSS"],
+      "Link_Git": "https://github.com/zaaine/Booki_projet"
     },
     {
       "id": 2,
       "name": "Oh My Food",
       "description": "Commander en ligne dans des prestigieux restaurants parisiens.",
       "image": "OhMyFood.webp",
-      "languages": ["HTML", "SASS"]
+      "languages": ["HTML", "SASS"],
+      "Link_Git": "https://github.com/zaaine/Ohmyfood-zaaine"
     },
     {
       "id": 3,
       "name": "Kasa",
       "description": "Louer votre appartement entre étudiants.",
       "image": "Kasa.webp",
-      "languages": ["React", "SASS"]
+      "languages": ["React", "SASS"],
+      "Link_Git": "https://github.com/zaaine/Kasa_FR"
     },
     {
       "id": 4,
       "name": "ArgentBank",
       "description": "L'application bancaire sécurisée pour vos transactions financières.",
       "image": "ArgentBank.webp",
-      "languages": ["HTML", "CSS", "React", "API network"]
+      "languages": ["HTML", "CSS", "React", "API network"],
+      "Link_Git": "https://github.com/zaaine/ArgentBank-website"
     }
   ]
 }

@@ -10,7 +10,7 @@
       "landscape": "Bookie.webp",
       "screenshot": "Bookie_screen.png",
       "link_projet": "https://bookie_portfolio@zaaine.com",
-      "Link_Git": "https://github.com/zaaine/Booki_projet.git"
+      "Link_Git": "https://github.com/zaaine/Booki_projet"
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "landscape": "OhMyFood.webp",
       "screenshot": "screen-OhMyFood.webp",
       "link_projet": "https://ohmyfood_portfolio@zaaine.com",
-      "Link_Git": "https://github.com/zaaine/OhMyFood_projet.git"
+      "Link_Git": "https://github.com/zaaine/Ohmyfood-zaaine"
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "landscape": "Kasa.webp",
       "screenshot": "screen-Kasa.webp",
       "link_projet": "https://kasa_portfolio@zaaine.com",
-      "Link_Git": "https://github.com/zaaine/Kasa_projet.git"
+      "Link_Git": "https://github.com/zaaine/Kasa_FR"
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "landscape": "ArgentBank.webp",
       "screenshot": "screen-ArgentBank.webp",
       "link_projet": "https://argentbank_portfolio@zaaine.com",
-      "Link_Git": "https://github.com/zaaine/ArgentBank_projet.git"
+      "Link_Git": "https://github.com/zaaine/ArgentBank-website"
     }
   ]
 }

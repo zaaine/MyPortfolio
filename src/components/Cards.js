@@ -84,9 +84,11 @@ export default function Cards({ project }) {
           <Button variant="solid" colorScheme="blue" onClick={goToDescription}>
             Description
           </Button>
-          <Button variant="ghost" colorScheme="blue">
-            Mon code Git
-          </Button>
+          <a href={project.Link_Git} target="_blank" rel="noopener noreferrer">
+            <Button variant="ghost" colorScheme="blue">
+              Mon code Git
+            </Button>
+          </a>
         </ButtonGroup>
       </CardFooter>
     </Card>

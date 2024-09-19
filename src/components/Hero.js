@@ -1,7 +1,7 @@
 import React from "react";
-import { Button, Tooltip } from "@chakra-ui/react";
+import { Button, Tooltip, IconButton } from "@chakra-ui/react";
+import { FaLinkedin, FaMedium, FaGithub, FaDev } from "react-icons/fa";
 import Profile from "../assets/profile.png";
-
 import "../styles/_components.scss/Hero.scss";
 
 export default function Hero() {
@@ -28,7 +28,57 @@ export default function Hero() {
           est essentielle pour donner vie à des projets performants et
           innovants."{" "}
         </p>
-        <div className="hero_button">
+        <div className="hero_links">
+          <Tooltip
+            label="Visiter mon Linkedin"
+            aria-label="visiter mon profil Linkedin"
+          >
+            <IconButton
+              as="a"
+              href="https://www.linkedin.com/in/ton-profil-linkedin"
+              target="_blank"
+              aria-label="LinkedIn"
+              icon={<FaLinkedin />}
+            />
+          </Tooltip>
+          <Tooltip
+            label="visiter mon blog Medium"
+            aria-label="Visiter mon blog Medium"
+          >
+            <IconButton
+              as="a"
+              href="https://www.medium.com/ton-profil-medium"
+              target="_blank"
+              aria-label="Medium"
+              icon={<FaMedium />}
+            />
+          </Tooltip>
+          <Tooltip
+            label="Visiter mon GitHub"
+            aria-label="Visiter mon profil GitHub"
+          >
+            <IconButton
+              as="a"
+              href="https://github.com/zaaine"
+              target="_blank"
+              aria-label="GitHub"
+              icon={<FaGithub />}
+            />
+          </Tooltip>
+          <Tooltip
+            label="Visiter mon profil Dev.to"
+            aria-label="Visiter mon profil Dev.to"
+          >
+            <IconButton
+              as="a"
+              href="https://dev.to/ton-profil-devto"
+              target="_blank"
+              aria-label="Dev.to"
+              icon={<FaDev />}
+            />
+          </Tooltip>
+        </div>
+        <div className="hero_button" id="portfolio">
           <Tooltip label="Envoyer un mail" aria-label="infobulle envois mail">
             <Button
               colorScheme={color}
@@ -39,6 +89,7 @@ export default function Hero() {
                 bg: `${color}.500`,
               }}
               onClick={handleEmail}
+              id="contact"
             >
               Me contacter
             </Button>

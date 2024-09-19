@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-curly-brace-presence */
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Flex,
   Button,
@@ -17,8 +17,7 @@ import {
   Tooltip,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
-import { FaLinkedin, FaMedium } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "../styles/_components.scss/NavBar.scss";
 import logo from "../assets/AZ_logo.png";
 
@@ -27,6 +26,20 @@ export default function NavBar() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [isLargerThanMD] = useMediaQuery("(min-width: 48em)");
+  const [isAboutPage, setIsAboutPage] = useState(false);
+  const location = useLocation();
+  const handleEmail = () => {
+    window.location.href =
+      "mailto:contact@zaaine.com?subject=Prise de contact&body=Bonjour Aziz,";
+  };
+
+  useEffect(() => {
+    if (location.pathname === "/about") {
+      setIsAboutPage(true);
+    } else {
+      setIsAboutPage(false);
+    }
+  }, [location.pathname]);
 
   const scrollToAbout = () => {
     const aboutSection = document.querySelector("#about");
@@ -36,11 +49,6 @@ export default function NavBar() {
   const scrollToPortfolio = () => {
     const projectsSection = document.querySelector("#portfolio");
     projectsSection.scrollIntoView({ behavior: "smooth" });
-  };
-
-  const scrollToContact = () => {
-    const contactSection = document.querySelector("#contact");
-    contactSection.scrollIntoView({ behavior: "smooth" });
   };
 
   const changeScroll = () =>
@@ -83,34 +91,25 @@ export default function NavBar() {
           <Stack direction={"row"} spacing={7}>
             {isLargerThanMD ? (
               <>
-                <Button variant="ghost">
-                  <Link to="/about">About</Link>
-                </Button>
+                {isAboutPage ? (
+                  <Button variant="ghost">
+                    <Link to="/">Home</Link>
+                  </Button>
+                ) : (
+                  <Button variant="ghost">
+                    <Link to="/about">About</Link>
+                  </Button>
+                )}
 
                 <Button variant="ghost" onClick={scrollToPortfolio}>
                   Portfolio
                 </Button>
-                <Button variant="ghost" onClick={scrollToContact}>
+                <Button variant="ghost" onClick={handleEmail}>
                   Contact
                 </Button>
               </>
             ) : null}
 
-            <IconButton
-              as="a"
-              href="https://www.linkedin.com/in/ton-profil-linkedin"
-              target="_blank"
-              aria-label="LinkedIn"
-              icon={<FaLinkedin />}
-            />
-
-            <IconButton
-              as="a"
-              href="https://www.medium.com/ton-profil-medium"
-              target="_blank"
-              aria-label="Medium"
-              icon={<FaMedium />}
-            />
             <Button onClick={toggleColorMode}>
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
@@ -126,14 +125,19 @@ export default function NavBar() {
                   <DrawerOverlay />
                   <DrawerContent>
                     <DrawerBody>
-                      <Button variant="ghost" onClick={scrollToAbout}>
-                        About
-                      </Button>
-
+                      {isAboutPage ? (
+                        <Button variant="ghost">
+                          <Link to="/">Home</Link>
+                        </Button>
+                      ) : (
+                        <Button variant="ghost" onClick={scrollToAbout}>
+                          About
+                        </Button>
+                      )}
                       <Button variant="ghost" onClick={scrollToPortfolio}>
                         Portfolio
                       </Button>
-                      <Button variant="ghost" onClick={scrollToContact}>
+                      <Button variant="ghost" onClick={handleEmail}>
                         Contact
                       </Button>
                     </DrawerBody>
