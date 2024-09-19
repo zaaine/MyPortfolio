@@ -35,16 +35,14 @@ export default function Description() {
   const [project, setProject] = useState(null); // État pour stocker le projet sélectionné
 
   useEffect(() => {
-    // Convertir l'ID en nombre entier avec parseInt
     const projectId = parseInt(id, 10);
-    // Trouver le projet correspondant dans le fichier JSON
+
     const selectedProject = data.presentation_projects.find(
       (proj) => proj.id === projectId,
     );
     setProject(selectedProject);
   }, [id]);
 
-  // Si le projet n'est pas trouvé, afficher un message d'erreur
   if (!project) {
     return <p>Projet non trouvé</p>;
   }
@@ -97,33 +95,39 @@ export default function Description() {
 
       <div className="contenaire_buttons">
         <Tooltip label="visiter le site" aria-label="infobulle link">
-          <Button
-            colorScheme={color}
-            bg={`${color}.400`}
-            rounded={"full"}
-            px={6}
-            _hover={{
-              bg: `${color}.500`,
-            }}
+          <a
             href={project.link_projet}
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            site Web
-          </Button>
+            <Button
+              colorScheme={color}
+              bg={`${color}.400`}
+              rounded={"full"}
+              px={6}
+              _hover={{
+                bg: `${color}.500`,
+              }}
+            >
+              Site Web
+            </Button>
+          </a>
         </Tooltip>
 
         <Tooltip label="voir le code Git" aria-label="infobulle link">
-          <Button
-            colorScheme={color}
-            bg={`${color}.400`}
-            rounded={"full"}
-            px={6}
-            _hover={{
-              bg: `${color}.500`,
-            }}
-            href={project.Link_Git}
-          >
-            Github
-          </Button>
+          <a href={project.Link_Git} target="_blank" rel="noopener noreferrer">
+            <Button
+              colorScheme={color}
+              bg={`${color}.400`}
+              rounded={"full"}
+              px={6}
+              _hover={{
+                bg: `${color}.500`,
+              }}
+            >
+              Github
+            </Button>
+          </a>
         </Tooltip>
       </div>
     </div>

@@ -61,6 +61,11 @@
       margin-top: 2rem;
       margin-bottom: 2rem;
       background-color: blue;
+      font-size: 1.5rem;
+      padding: 2rem;
+    }
+    :active {
+      background-color: green;
     }
     .description_link {
       background-color: rgb(36, 68, 212);
