@@ -6,3 +6,9 @@
   @include flex-center;
   margin-top: 4rem;
 }
+
+.title_technologie {
+  @include title-h2;
+  @include flex-center;
+  justify-content: center;
+}

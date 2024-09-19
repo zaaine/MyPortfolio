@@ -39,6 +39,7 @@ export default function Hero() {
               target="_blank"
               aria-label="LinkedIn"
               icon={<FaLinkedin />}
+              size="lg"
             />
           </Tooltip>
           <Tooltip
@@ -51,6 +52,7 @@ export default function Hero() {
               target="_blank"
               aria-label="Medium"
               icon={<FaMedium />}
+              size="lg"
             />
           </Tooltip>
           <Tooltip
@@ -63,6 +65,7 @@ export default function Hero() {
               target="_blank"
               aria-label="GitHub"
               icon={<FaGithub />}
+              size="lg"
             />
           </Tooltip>
           <Tooltip
@@ -75,6 +78,7 @@ export default function Hero() {
               target="_blank"
               aria-label="Dev.to"
               icon={<FaDev />}
+              size="lg"
             />
           </Tooltip>
         </div>

@@ -3,7 +3,7 @@
 .hero_container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-content: center;
   justify-content: space-between;
   align-items: flex-start;
@@ -51,9 +51,12 @@
   display: flex;
   gap: 4rem;
   cursor: pointer;
-
-  :hover IconButton {
-    background-color: aqua;
+  a {
+    font-size: xxx-large;
+    padding: 2rem;
+  }
+  :hover {
+    color: deeppink;
   }
 }
 
@@ -68,6 +71,11 @@
   }
   .hero_links {
     justify-content: space-around;
+    gap: 0;
+  }
+  a {
+    font-size: large;
+    padding: 1rem;
   }
 }
 @media (max-width: $layout-breakpoint-small) {

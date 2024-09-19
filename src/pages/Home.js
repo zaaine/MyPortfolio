@@ -5,12 +5,14 @@ import projectsData from "../assets/BDD_JSON/projects.json";
 // composants
 import Hero from "../components/Hero";
 import Carrousel from "../components/Carrousel";
+import Technologies from "../components/Technologies";
 
 function Home() {
   return (
     <div>
       <Hero />
       <Carrousel projects={projectsData.projects} />
+      <Technologies />
     </div>
   );
 }
