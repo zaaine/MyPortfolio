@@ -17,7 +17,7 @@ import {
   Tooltip,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "../styles/_components.scss/NavBar.scss";
 import logo from "../assets/AZ_logo.png";
 
@@ -28,6 +28,7 @@ export default function NavBar() {
   const [isLargerThanMD] = useMediaQuery("(min-width: 48em)");
   const [isAboutPage, setIsAboutPage] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
   const handleEmail = () => {
     window.location.href =
       "mailto:contact@zaaine.com?subject=Prise de contact&body=Bonjour Aziz,";
@@ -47,8 +48,16 @@ export default function NavBar() {
   };
 
   const scrollToPortfolio = () => {
-    const projectsSection = document.querySelector("#portfolio");
-    projectsSection.scrollIntoView({ behavior: "smooth" });
+    const isHomePage = window.location.pathname === "/";
+
+    if (isHomePage) {
+      const projectsSection = document.querySelector("#portfolio");
+      if (projectsSection) {
+        projectsSection.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      navigate("/#portfolio");
+    }
   };
 
   const changeScroll = () =>

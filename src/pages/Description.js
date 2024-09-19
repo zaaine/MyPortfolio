@@ -16,7 +16,7 @@ const importAll = (r) =>
 /* eslint-disable-next-line global-require, import/no-dynamic-require */
 const homeImages = importAll(
   require.context(
-    "../assets/images/home_img",
+    "../assets/images/landscape_img",
     false,
     /\.(png|jpe?g|svg|webp)$/,
   ),

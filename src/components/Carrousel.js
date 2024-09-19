@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import {
   Grid,
   Button,
@@ -10,6 +11,18 @@ import Cards from "./Cards";
 import "../styles/_base.scss/Base.scss";
 
 export default function Carrousel({ projects }) {
+  const location = useLocation();
+
+  useEffect(() => {
+    // Vérifie si l'URL contient le fragment #portfolio
+    if (location.hash === "#portfolio") {
+      const portfolioSection = document.getElementById("portfolio");
+      if (portfolioSection) {
+        portfolioSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const projectsPerPage = 4;
 
@@ -46,7 +59,7 @@ export default function Carrousel({ projects }) {
     projects.length <= projectsPerPage;
 
   return (
-    <div>
+    <div id="portfolio">
       <h2 className="title_portfolio"> Portfolio </h2>
       <Grid
         templateColumns={`repeat(${gridColumns}, 1fr)`}
