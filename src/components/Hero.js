@@ -35,7 +35,7 @@ export default function Hero() {
           >
             <IconButton
               as="a"
-              href="https://www.linkedin.com/in/ton-profil-linkedin"
+              href="https://www.linkedin.com/in/aziz-zaaine-7a817732b"
               target="_blank"
               aria-label="LinkedIn"
               icon={<FaLinkedin />}
@@ -48,7 +48,7 @@ export default function Hero() {
           >
             <IconButton
               as="a"
-              href="https://www.medium.com/ton-profil-medium"
+              href="https://medium.com/@azizzaaine"
               target="_blank"
               aria-label="Medium"
               icon={<FaMedium />}
@@ -74,7 +74,7 @@ export default function Hero() {
           >
             <IconButton
               as="a"
-              href="https://dev.to/ton-profil-devto"
+              href="https://dev.to/aziz_zaaine"
               target="_blank"
               aria-label="Dev.to"
               icon={<FaDev />}
