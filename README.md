@@ -17,11 +17,11 @@
 
 ## Description
 
-**MyPortfolio** est une application web de portfolio personnelle développée avec **React**. Elle permet de présenter vos projets, compétences et expériences de manière élégante et interactive. L'application utilise **Chakra UI** pour le design, **React Router** pour la navigation, et charge dynamiquement les données des projets à partir d'un fichier JSON.
+**MyPortfolio** est une application web de portfolio personnelle que j'ai développé avec **React**. Elle permet de présenter mes projets, compétences et expériences de manière élégante et interactive. L'application utilise **Chakra UI** pour le design, **React Router** pour la navigation, et charge dynamiquement les données des projets à partir d'un fichier JSON.
 
 ## Fonctionnalités
 
-- **Présentation des Projets** : Affichez vos projets avec des descriptions détaillées, des images et des liens vers les sites web et les dépôts GitHub.
+- **Présentation des Projets** : Affichez mes projets avec des descriptions détaillées, des images et des liens vers les sites web et les dépôts GitHub.
 - **Responsive Design** : Adapté pour une visualisation optimale sur tous les types d'appareils.
 - **Navigation Intuitive** : Utilisation de React Router pour une navigation fluide entre les différentes sections.
 - **Design Moderne** : Intégration de Chakra UI pour un design esthétique et personnalisable.
@@ -38,6 +38,8 @@
   - [Dependabot](https://dependabot.com/) - Outil de surveillance et de mise à jour des dépendances.
 
 ## Installation
+-npm install
+- npm start
 
 ### Prérequis
 
