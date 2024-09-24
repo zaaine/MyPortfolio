@@ -94,25 +94,27 @@ export default function Description() {
       </div>
 
       <div className="contenaire_buttons">
-        <Tooltip label="visiter le site" aria-label="infobulle link">
-          <a
-            href={project.link_projet}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button
-              colorScheme={color}
-              bg={`${color}.400`}
-              rounded={"full"}
-              px={6}
-              _hover={{
-                bg: `${color}.500`,
-              }}
+        {project.Link_Git && (
+          <Tooltip label="visiter le site" aria-label="infobulle link">
+            <a
+              href={project.link_projet}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Site Web
-            </Button>
-          </a>
-        </Tooltip>
+              <Button
+                colorScheme={color}
+                bg={`${color}.400`}
+                rounded={"full"}
+                px={6}
+                _hover={{
+                  bg: `${color}.500`,
+                }}
+              >
+                Site Web
+              </Button>
+            </a>
+          </Tooltip>
+        )}
 
         <Tooltip label="voir le code Git" aria-label="infobulle link">
           <a href={project.Link_Git} target="_blank" rel="noopener noreferrer">
