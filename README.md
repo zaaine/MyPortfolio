@@ -52,4 +52,4 @@
    git clone https://github.com/zaaine/MyPortfolio.git
    ```
 
-   ![Screen du projet ](assets/src/images/screenshots/myportfolio_sreen.png)
+   ![Screen du projet ](/Frontend/src/assets/images/screenshots/myportfolio_screen.png)
