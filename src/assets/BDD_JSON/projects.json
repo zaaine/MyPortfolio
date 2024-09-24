@@ -63,6 +63,22 @@
       "image": "ridingCities.webp",
       "languages": ["HTML", "CSS"],
       "Link_Git": "https://github.com/zaaine/Yummy-Nouilles.git"
+    },
+    {
+      "id": 9,
+      "name": "Print IT",
+      "description": "Création d'un carrousel dynamique sur un site existant et amélioration SEO",
+      "image": "printIt.webp",
+      "languages": ["HTML", "CSS", "Javascript"],
+      "Link_Git": "https://github.com/zaaine/Print.IT-JS_zaaine.git"
+    },
+    {
+      "id": 10,
+      "name": "724 Events",
+      "description": "Débogage d'un site evenementiel à travers la réalisation de tests unitaires et end-to-end.",
+      "image": "724events.webp",
+      "languages": ["React", "React Testing Library"],
+      "Link_Git": "https://github.com/zaaine/724Events.git"
     }
   ]
 }

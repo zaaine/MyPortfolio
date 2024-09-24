@@ -95,6 +95,31 @@
       "screenshot": "ridingCities_screen.webp",
       "link_projet": "https://ridingcities_portfolio@zaaine.com",
       "Link_Git": "https://github.com/zaaine/Yummy-Nouilles.git"
+    },
+
+    {
+      "id": 9,
+      "name": "Print IT",
+      "languages": ["HTML", "CSS", "Javascript"],
+      "Mission": "Développer un carrousel dynamique pour le site existant Print IT et optimiser le référencement SEO afin d'améliorer la visibilité et l'interaction utilisateur.",
+      "description": "Le projet Print IT consistait en la création d'un carrousel interactif permettant aux utilisateurs de naviguer facilement à travers différentes offres et services proposés par l'entreprise. En utilisant HTML, CSS et Javascript, j'ai conçu une interface intuitive et réactive, intégrant des animations fluides pour une meilleure expérience utilisateur. Parallèlement, j'ai entrepris une refonte SEO complète, incluant l'optimisation des balises méta, l'amélioration de la structure du contenu, et l'implémentation de techniques de référencement avancées pour augmenter le classement du site sur les moteurs de recherche.",
+      "livraison": "Le livrable final comprend un carrousel dynamique entièrement fonctionnel, intégré de manière transparente au site existant de Print IT. Les améliorations SEO ont conduit à une augmentation notable du trafic organique et à une meilleure visibilité en ligne. Le carrousel a été optimisé pour une performance maximale sur tous les appareils, garantissant une navigation fluide et engageante. Les tests effectués ont confirmé l'efficacité des optimisations SEO, avec des résultats positifs sur les classements des moteurs de recherche et l'engagement des utilisateurs.",
+      "landscape": "printIt_landscape.webp",
+      "screenshot": "printIt_screen.webp",
+      "link_projet": "https://printit_portfolio@zaaine.com",
+      "Link_Git": "https://github.com/zaaine/Print.IT-JS_zaaine.git"
+    },
+    {
+      "id": 10,
+      "name": "724 Events",
+      "languages": ["React", "React Testing Library"],
+      "Mission": "Déboguer et améliorer la fiabilité du site événementiel 724 Events en réalisant des tests unitaires et end-to-end pour assurer une expérience utilisateur sans faille. Rédiger un livre de recette à presenter aux clients expliquant la demarche de résolution.",
+      "description": "Le projet 724 Events portait sur le débogage approfondi d'un site web événementiel. En utilisant React et la React Testing Library, j'ai mis en place une suite complète de tests unitaires et end-to-end pour identifier et corriger les bugs existants. Cette démarche a permis de renforcer la stabilité du site, d'améliorer les performances et de garantir que toutes les fonctionnalités fonctionnent comme prévu. J'ai également optimisé le code existant pour une meilleure maintenabilité et évolutivité, tout en assurant une couverture de tests élevée pour prévenir les régressions futures.",
+      "livraison": "Le site 724 Events a été stabilisé grâce à l'identification et à la correction des principaux bugs, améliorant ainsi l'expérience utilisateur globale. La mise en place de tests unitaires et end-to-end a permis de garantir la fiabilité des fonctionnalités critiques, réduisant significativement le risque de dysfonctionnements. De plus, l'optimisation du code a rendu le site plus performant et plus facile à maintenir, facilitant ainsi les futures mises à jour et extensions. Les tests automatisés ont également accéléré le processus de développement en permettant des déploiements plus sûrs et plus fréquents.",
+      "landscape": "724events_landscape.webp",
+      "screenshot": "724events_screen.webp",
+      "link_projet": "https://724events_portfolio@zaaine.com",
+      "Link_Git": "https://github.com/zaaine/724Events.git"
     }
   ]
 }
