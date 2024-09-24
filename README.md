@@ -1,6 +1,6 @@
 # MyPortfolio
 
-![Photo de profile](assets/src/AZ_logo.png)
+![Photo de profile](src/assets/src/AZ_logo.png)
 
 ## Table des Matières
 
