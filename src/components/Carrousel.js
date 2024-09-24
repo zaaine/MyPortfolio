@@ -7,6 +7,7 @@ import {
   ButtonGroup,
   useBreakpointValue,
 } from "@chakra-ui/react";
+import { css } from "@emotion/react";
 import Cards from "./Cards";
 import "../styles/_base.scss/Base.scss";
 
@@ -69,6 +70,11 @@ export default function Carrousel({ projects }) {
         alignItems="center"
         justifyItems="center"
         mt="5rem"
+        css={css`
+          @media (min-width: 1600px) {
+            grid-template-columns: repeat(2, 1fr 1fr);
+          }
+        `}
       >
         {visibleProjects.map((project) => (
           <Cards key={project.id} project={project} />

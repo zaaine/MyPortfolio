@@ -47,6 +47,54 @@
       "screenshot": "ArgentBank_screen.webp",
       "link_projet": "https://argentbank_portfolio@zaaine.com",
       "Link_Git": "https://github.com/zaaine/ArgentBank-website"
+    },
+    {
+      "id": 5,
+      "name": "Ninna Carducci",
+      "languages": ["HTML", "CSS"],
+      "Mission": "Ma mission principale était d'améliorer le référencement SEO du site web de Ninna Carducci, une photographe freelance. L'objectif était d'augmenter la visibilité en ligne du site pour attirer davantage de clients potentiels et améliorer le classement dans les moteurs de recherche.",
+      "description": "Le projet consistait à optimiser le site web de Ninna Carducci en améliorant sa structure HTML, en optimisant les balises méta, et en intégrant des mots-clés pertinents liés à la photographie freelance. J'ai également travaillé sur l'optimisation des temps de chargement des pages et assuré que le site soit responsive et accessible. L'analyse des performances SEO a été réalisée à l'aide d'outils comme Google Analytics et Google Search Console pour identifier les points d'amélioration et suivre les progrès réalisés.",
+      "livraison": "Le livrable final est un site web optimisé pour le SEO, avec une meilleure visibilité sur les moteurs de recherche. Les modifications apportées ont conduit à une augmentation du trafic organique et à un meilleur classement pour les mots-clés ciblés. Le site est désormais plus rapide, plus accessible, et mieux structuré, ce qui améliore l'expérience utilisateur et facilite l'acquisition de nouveaux clients pour Ninna Carducci.",
+      "landscape": "ninnaCarducci_landscape.webp",
+      "screenshot": "ninnaCarducci_screen.webp",
+      "link_projet": "https://ninnaCarducci_portfolio@zaaine.com",
+      "Link_Git": "https://github.com/zaaine/NinaCarducci---Photographe.git"
+    },
+    {
+      "id": 6,
+      "name": "Yummy Nouilles",
+      "languages": ["HTML", "SASS"],
+      "Mission": "Développer une plateforme de commande en ligne pour la chaîne de restaurants Yummy Nouilles et promouvoir leur présence en ligne afin d'augmenter les ventes et la notoriété de la marque.",
+      "description": "Le projet Yummy Nouilles impliquait la création d'un site web responsive permettant aux clients de passer des commandes en ligne facilement. J'ai intégré des fonctionnalités telles que le menu interactif, le panier d'achat, et le système de paiement sécurisé. En utilisant HTML et SASS, j'ai conçu une interface attrayante et intuitive, tout en assurant la compatibilité avec différents appareils. De plus, j'ai mis en place des stratégies de promotion en ligne, incluant l'optimisation SEO et l'intégration des réseaux sociaux pour attirer davantage de clients.",
+      "livraison": "Le site web finalisé permet aux clients de commander leurs plats préférés de Yummy Nouilles en quelques clics, améliorant ainsi l'expérience utilisateur et augmentant les ventes en ligne. Le design responsive assure une navigation fluide sur tous les appareils, et les fonctionnalités de commande en ligne sécurisées garantissent la confiance des utilisateurs. Les efforts de promotion ont conduit à une augmentation significative du trafic sur le site et à une meilleure visibilité de la marque sur les plateformes en ligne.",
+      "landscape": "YummyNouilles_landscape.webp",
+      "screenshot": "YummyNouilles_screen.webp",
+      "link_projet": "https://yummynouilles_portfolio@zaaine.com",
+      "Link_Git": "https://github.com/zaaine/Yummy-Nouilles.git"
+    },
+    {
+      "id": 7,
+      "name": "Sophie Bluel",
+      "languages": ["HTML", "CSS", "Javascript", "API network"],
+      "Mission": "Créer une page web dynamique pour Sophie Bluel, une architecte, permettant la publication et la gestion de ses travaux. L'objectif était de fournir une plateforme interactive où elle pourrait présenter ses projets de manière moderne et engageante.",
+      "description": "Le projet Sophie Bluel consistait en la conception et le développement d'un site web dynamique utilisant HTML, CSS, et Javascript. J'ai implémenté des fonctionnalités interactives telles qu'une galerie de projets filtrable, des animations au défilement, et une section de contact intégrée avec une API de messagerie. L'utilisation d'APIs réseau a permis d'intégrer des fonctionnalités avancées comme la récupération des données des projets depuis une base de données externe, assurant ainsi une gestion efficace et évolutive des contenus.",
+      "livraison": "Le site web final offre une expérience utilisateur fluide et interactive, permettant à Sophie Bluel de présenter ses travaux de manière professionnelle et attrayante. Les fonctionnalités dynamiques facilitent la mise à jour des projets et améliorent l'engagement des visiteurs. Le site est entièrement responsive, garantissant une accessibilité optimale sur tous les types d'appareils. Grâce à l'intégration des APIs, le site est scalable et peut être facilement étendu avec de nouvelles fonctionnalités à l'avenir.",
+      "landscape": "sophieBluel_landscape.webp",
+      "screenshot": "sophieBluel_screen.webp",
+      "link_projet": "https://sophiebluel_portfolio@zaaine.com",
+      "Link_Git": "https://github.com/zaaine/Portfolio-architecte-sophie-bluel.git"
+    },
+    {
+      "id": 8,
+      "name": "Riding Cities",
+      "languages": ["HTML", "CSS"],
+      "Mission": "Mettre à jour et moderniser le site web de l'association sportive Riding Cities, qui promeut le skate, afin d'améliorer sa présence en ligne et d'attirer davantage de membres et de participants aux événements.",
+      "description": "Le projet Riding Cities impliquait la refonte complète du site web de l'association, en utilisant HTML et CSS pour créer une interface moderne et attrayante. J'ai amélioré la structure du site pour une meilleure navigation, optimisé le design pour la responsivité sur différents appareils, et intégré des sections dédiées aux événements, aux actualités, et aux membres. L'objectif était de rendre le site plus convivial et informatif, tout en reflétant l'esprit dynamique de l'association.",
+      "livraison": "Le site web finalisé offre une interface moderne et intuitive, facilitant la navigation pour les utilisateurs. Les sections dédiées aux événements et aux actualités permettent une communication efficace des activités de l'association, tandis que la responsivité assure une expérience utilisateur optimale sur tous les appareils. Les améliorations apportées ont contribué à une augmentation de l'engagement des membres et à une meilleure visibilité de Riding Cities dans la communauté du skate.",
+      "landscape": "ridingCities_landscape.webp",
+      "screenshot": "ridingCities_screen.webp",
+      "link_projet": "https://ridingcities_portfolio@zaaine.com",
+      "Link_Git": "https://github.com/zaaine/Yummy-Nouilles.git"
     }
   ]
 }

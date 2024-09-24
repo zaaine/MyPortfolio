@@ -43,7 +43,7 @@
     {
       "id": 6,
       "name": "Yummy Nouilles",
-      "description": "Commander en ligne et promouvoir les restautants de la chaine de restaurant.",
+      "description": "Commander en ligne et promouvoir les restautants de la chaine Yummy Nouilles.",
       "image": "YummyNouilles.webp",
       "languages": ["HTML", "SASS"],
       "Link_Git": "https://github.com/zaaine/Yummy-Nouilles.git"
@@ -51,7 +51,7 @@
     {
       "id": 7,
       "name": "Sophie Bluel",
-      "description": "Création d'une page web dynamique avec Javascript permettant à une architecte de publier ses travaux.",
+      "description": "Création d'une page web dynamique permettant à une architecte de publier ses travaux.",
       "image": "sophieBluel.webp",
       "languages": ["HTML", "CSS", "Javascript", "API network"],
       "Link_Git": "https://github.com/zaaine/Portfolio-architecte-sophie-bluel.git"
