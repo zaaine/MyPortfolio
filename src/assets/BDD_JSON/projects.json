@@ -31,6 +31,38 @@
       "image": "ArgentBank.webp",
       "languages": ["HTML", "CSS", "React", "API network"],
       "Link_Git": "https://github.com/zaaine/ArgentBank-website"
+    },
+    {
+      "id": 5,
+      "name": "Ninna Carducci",
+      "description": "Travailler au reférencement SEO d'un site de photographe freelance .",
+      "image": "ninnaCarducci.webp",
+      "languages": ["HTML", "CSS"],
+      "Link_Git": "https://github.com/zaaine/NinaCarducci---Photographe.git"
+    },
+    {
+      "id": 6,
+      "name": "Yummy Nouilles",
+      "description": "Commander en ligne et promouvoir les restautants de la chaine de restaurant.",
+      "image": "YummyNouilles.webp",
+      "languages": ["HTML", "SASS"],
+      "Link_Git": "https://github.com/zaaine/Yummy-Nouilles.git"
+    },
+    {
+      "id": 7,
+      "name": "Sophie Bluel",
+      "description": "Création d'une page web dynamique avec Javascript permettant à une architecte de publier ses travaux.",
+      "image": "sophieBluel.webp",
+      "languages": ["HTML", "CSS", "Javascript", "API network"],
+      "Link_Git": "https://github.com/zaaine/Portfolio-architecte-sophie-bluel.git"
+    },
+    {
+      "id": 8,
+      "name": "Riding Cities",
+      "description": "Mise à jour d'un site pour une association sportive qui promeut le skate.",
+      "image": "ridingCities.webp",
+      "languages": ["HTML", "CSS"],
+      "Link_Git": "https://github.com/zaaine/Yummy-Nouilles.git"
     }
   ]
 }
