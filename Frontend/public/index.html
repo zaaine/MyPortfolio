@@ -5,10 +5,24 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+
+    <!-- meta SEO -->
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Découvrez les projets de zaaine aziz, développeur front-end spécialisé en React."
     />
+    <meta
+      name="keywords"
+      content="Développeur React, Portfolio, Web Developer, Front-End"
+    />
+    <meta name="author" content="zaaine aziz" />
+    <meta property="og:title" content="Mon Portfolio | Développeur Front-End" />
+    <meta
+      property="og:description"
+      content="Découvrez les projets de zaaine aziz, développeur front-end spécialisé en React."
+    />
+    <meta property="og:url" content="https://portfolio.zaaine.com" />
+    <meta property="og:type" content="website" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -24,7 +38,33 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "zaaine aziz",
+        "url": "https://portfolio.zaaine.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/aziz-zaaine-7a817732b/",
+          "https://github.com/zaaine",
+          "https://medium.com/@azizzaaine",
+          "https://dev.to/aziz_zaaine"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Votre Entreprise"
+        },
+        "knowsAbout": ["React", "JavaScript", "Web Development"],
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Front-End Developer",
+          "description": "Développeur front-end spécialisé en React, JavaScript, php, html et css."
+        }
+      }
+    </script>
+
+    <title>Mon Portfolio | Développeur Front-End</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

@@ -1,3 +1,22 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt pour le portfolio de zaaine aziz
+
+# Directive générale pour tous les robots
 User-agent: *
-Disallow:
+# Bloquer l'accès aux répertoires sensibles
+Disallow: /admin/
+Disallow: /src/
+Disallow: /components/
+Disallow: /node_modules/
+Disallow: /public/
+Disallow: /build/
+Disallow: /scripts/
+
+# Bloquer l'accès à des pages spécifiques non pertinentes
+Disallow: /private-page/
+Disallow: /temp/
+
+# Autoriser l'accès à toutes les autres pages
+Allow: /
+
+# Indiquer l'emplacement du sitemap
+Sitemap: https://portfolio.zaaine.com/sitemap.xml
