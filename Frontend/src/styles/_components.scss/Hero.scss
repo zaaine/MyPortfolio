@@ -75,7 +75,7 @@
     gap: 0;
   }
   a {
-    font-size: large;
+    font-size: x-large;
     padding: 1rem;
   }
 }
@@ -85,5 +85,14 @@
   }
   .hero_text .hero_subtitle {
     font-size: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero_links {
+    a {
+      font-size: large;
+      padding: 0rem;
+    }
   }
 }

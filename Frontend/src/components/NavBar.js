@@ -42,11 +42,6 @@ export default function NavBar() {
     }
   }, [location.pathname]);
 
-  const scrollToAbout = () => {
-    const aboutSection = document.querySelector("#about");
-    aboutSection.scrollIntoView({ behavior: "smooth" });
-  };
-
   const scrollToPortfolio = () => {
     const isHomePage = window.location.pathname === "/";
 
@@ -60,12 +55,18 @@ export default function NavBar() {
     }
   };
 
-  const changeScroll = () =>
-    document.body.scrollTop > 80 || document.documentElement.scrollTop > 80
-      ? setScroll(true)
-      : setScroll(false);
+  useEffect(() => {
+    const changeScroll = () =>
+      document.body.scrollTop > 80 || document.documentElement.scrollTop > 80
+        ? setScroll(true)
+        : setScroll(false);
 
-  window.addEventListener("scroll", changeScroll);
+    window.addEventListener("scroll", changeScroll);
+
+    return () => {
+      window.removeEventListener("scroll", changeScroll);
+    };
+  }, []);
 
   return (
     <div>
@@ -139,8 +140,8 @@ export default function NavBar() {
                           <Link to="/">Home</Link>
                         </Button>
                       ) : (
-                        <Button variant="ghost" onClick={scrollToAbout}>
-                          About
+                        <Button variant="ghost">
+                          <Link to="/about">About</Link>
                         </Button>
                       )}
                       <Button variant="ghost" onClick={scrollToPortfolio}>

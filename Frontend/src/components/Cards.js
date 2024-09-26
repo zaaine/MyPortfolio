@@ -12,6 +12,7 @@ import {
   ButtonGroup,
   Image,
 } from "@chakra-ui/react";
+import { css } from "@emotion/react";
 import { useNavigate } from "react-router-dom";
 import bookieImage from "../assets/images/home_img/Bookie.webp";
 
@@ -42,6 +43,13 @@ export default function Cards({ project }) {
       m="4"
       height="30rem"
       width="25rem"
+      css={css`
+        @media (max-width: 400px) {
+          height: 34rem;
+          width: 100%;
+          margin-left: 4rem;
+        }
+      `}
     >
       {" "}
       <CardBody
