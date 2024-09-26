@@ -94,7 +94,7 @@ export default function Description() {
       </div>
 
       <div className="contenaire_buttons">
-        {project.Link_Git && (
+        {project.link_projet && (
           <Tooltip label="visiter le site" aria-label="infobulle link">
             <a
               href={project.link_projet}

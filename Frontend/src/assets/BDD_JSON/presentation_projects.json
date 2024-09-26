@@ -9,7 +9,7 @@
       "livraison": "Ce projet a représenté mon premier défi d'intégration responsive à partir d'une maquette complète. J'ai rencontré de nombreuses difficultés, notamment en ce qui concerne l'adaptation du design pour différents appareils et la gestion des détails visuels pour rester fidèle à la maquette. Cependant, après 138 commits et de nombreux ajustements, j'ai pu livrer une version conforme aux attentes du client. Le livrable final est une page d'accueil responsive, fonctionnelle et fidèle aux maquettes, optimisée pour des résolutions allant de 320 px à 1440 px. Le projet a été testé et validé sur les dernières versions de Google Chrome et Mozilla Firefox, avec un code propre et conforme aux standards W3C. Ce projet a marqué une étape importante dans ma carrière en tant que développeur web, en consolidant mes compétences en intégration et en design responsive.",
       "landscape": "Bookie_landscape.webp",
       "screenshot": "Bookie_screen.webp",
-      "link_projet": "https://bookie_portfolio@zaaine.com",
+      "link_projet": "https://booki.portfolio@zaaine.com",
       "Link_Git": "https://github.com/zaaine/Booki_projet"
     },
     {
@@ -21,7 +21,7 @@
       "livraison": "Le livrable final est un site web responsive, développé selon une approche 'mobile first' et conforme aux maquettes et prototypes fournis. La plateforme permet aux utilisateurs de consulter les menus de 4 restaurants et d'interagir avec les différentes options de repas. Grâce à l'utilisation de Sass et aux animations CSS implémentées, l'interface est à la fois esthétiquement agréable et performante. Ce projet a marqué une étape importante dans ma carrière, car il m'a permis d'améliorer mes compétences en intégration d'interfaces complexes, en gestion de versions avec Git, ainsi qu'en utilisation avancée de Sass et des animations CSS. J'ai particulièrement apprécié la liberté créative pour concevoir des animations sans framework, ce qui a renforcé ma capacité à offrir une expérience utilisateur riche et immersive.",
       "landscape": "OhMyFood_landscape.webp",
       "screenshot": "OhMyFood_screen.webp",
-      "link_projet": "https://ohmyfood_portfolio@zaaine.com",
+      "link_projet": "https://ohmyfood.portfolio@zaaine.com",
       "Link_Git": "https://github.com/zaaine/Ohmyfood-zaaine"
     },
     {
@@ -33,7 +33,7 @@
       "livraison": "Le livrable final est une application web responsive, développée avec React, React Router, et Sass. Le site est conçu pour offrir une navigation fluide entre les pages, avec une interface réactive et esthétique. Le carrousel de la galerie d'images, ainsi que les différentes fonctionnalités du site, ont été réalisés sans l'utilisation de librairies externes, garantissant ainsi un contrôle total sur le code. Ce projet était mon premier développé avec React, et j'ai particulièrement apprécié travailler avec ce langage, qui est désormais celui que je préfère. Il m'a permis de renforcer mes compétences en React et React Router, notamment dans la gestion des routes et des paramètres d'URL, ainsi que dans la création de composants réutilisables et maintenables.",
       "landscape": "Kasa_landscape.webp",
       "screenshot": "Kasa_screen.webp",
-      "link_projet": "https://kasa_portfolio@zaaine.com",
+      "link_projet": "https://kasa.portfolio@zaaine.com",
       "Link_Git": "https://github.com/zaaine/Kasa_FR"
     },
     {
@@ -45,7 +45,7 @@
       "livraison": "Le livrable final est une application bancaire sécurisée et responsive, développée avec React et Redux. Le tableau de bord permet aux utilisateurs de se connecter, de consulter leurs informations personnelles, et de gérer leurs transactions bancaires de manière fluide. L'intégration des routes API a été documentée avec Swagger, garantissant une communication claire entre le front-end et le back-end. Ce projet React m'a permis de franchir le pallier de développeur React confirmé. J'ai su implémenter la logique Redux de manière fonctionnelle, tout en la rendant adaptable pour des phases de développement plus complexes à venir. La proposition d'une documentation Swagger a également été une expérience enrichissante, apportant une structure claire pour les futures interactions entre le front-end et le back-end.",
       "landscape": "ArgentBank_landscape.webp",
       "screenshot": "ArgentBank_screen.webp",
-      "link_projet": "https://argentbank_portfolio@zaaine.com",
+      "link_projet": "",
       "Link_Git": "https://github.com/zaaine/ArgentBank-website"
     },
     {
@@ -57,7 +57,7 @@
       "livraison": "Le livrable final est un site web optimisé pour le SEO, avec une meilleure visibilité sur les moteurs de recherche. Les modifications apportées ont conduit à une augmentation du trafic organique et à un meilleur classement pour les mots-clés ciblés. Le site est désormais plus rapide, plus accessible, et mieux structuré, ce qui améliore l'expérience utilisateur et facilite l'acquisition de nouveaux clients pour Ninna Carducci.",
       "landscape": "ninnaCarducci_landscape.webp",
       "screenshot": "ninnaCarducci_screen.webp",
-      "link_projet": "https://ninnaCarducci_portfolio@zaaine.com",
+      "link_projet": "https://ninnacarducci.portfolio@zaaine.com",
       "Link_Git": "https://github.com/zaaine/NinaCarducci---Photographe.git"
     },
     {
@@ -69,7 +69,7 @@
       "livraison": "Le site web finalisé permet aux clients de commander leurs plats préférés de Yummy Nouilles en quelques clics, améliorant ainsi l'expérience utilisateur et augmentant les ventes en ligne. Le design responsive assure une navigation fluide sur tous les appareils, et les fonctionnalités de commande en ligne sécurisées garantissent la confiance des utilisateurs. Les efforts de promotion ont conduit à une augmentation significative du trafic sur le site et à une meilleure visibilité de la marque sur les plateformes en ligne.",
       "landscape": "YummyNouilles_landscape.webp",
       "screenshot": "YummyNouilles_screen.webp",
-      "link_projet": "https://yummynouilles_portfolio@zaaine.com",
+      "link_projet": "https://yummynouilles.portfolio@zaaine.com",
       "Link_Git": "https://github.com/zaaine/Yummy-Nouilles.git"
     },
     {
@@ -81,8 +81,8 @@
       "livraison": "Le site web final offre une expérience utilisateur fluide et interactive, permettant à Sophie Bluel de présenter ses travaux de manière professionnelle et attrayante. Les fonctionnalités dynamiques facilitent la mise à jour des projets et améliorent l'engagement des visiteurs. Le site est entièrement responsive, garantissant une accessibilité optimale sur tous les types d'appareils. Grâce à l'intégration des APIs, le site est scalable et peut être facilement étendu avec de nouvelles fonctionnalités à l'avenir.",
       "landscape": "sophieBluel_landscape.webp",
       "screenshot": "sophieBluel_screen.webp",
-      "link_projet": "https://sophiebluel_portfolio@zaaine.com",
-      "Link_Git": ""
+      "link_projet": "",
+      "Link_Git": "https://github.com/zaaine/Portfolio-architecte-sophie-bluel.git"
     },
     {
       "id": 8,
@@ -93,7 +93,7 @@
       "livraison": "Le site web finalisé offre une interface moderne et intuitive, facilitant la navigation pour les utilisateurs. Les sections dédiées aux événements et aux actualités permettent une communication efficace des activités de l'association, tandis que la responsivité assure une expérience utilisateur optimale sur tous les appareils. Les améliorations apportées ont contribué à une augmentation de l'engagement des membres et à une meilleure visibilité de Riding Cities dans la communauté du skate.",
       "landscape": "ridingCities_landscape.webp",
       "screenshot": "ridingCities_screen.webp",
-      "link_projet": "https://ridingcities_portfolio@zaaine.com",
+      "link_projet": "https://ridingcities.portfolio@zaaine.com",
       "Link_Git": "https://github.com/zaaine/Yummy-Nouilles.git"
     },
 
@@ -106,7 +106,7 @@
       "livraison": "Le livrable final comprend un carrousel dynamique entièrement fonctionnel, intégré de manière transparente au site existant de Print IT. Les améliorations SEO ont conduit à une augmentation notable du trafic organique et à une meilleure visibilité en ligne. Le carrousel a été optimisé pour une performance maximale sur tous les appareils, garantissant une navigation fluide et engageante. Les tests effectués ont confirmé l'efficacité des optimisations SEO, avec des résultats positifs sur les classements des moteurs de recherche et l'engagement des utilisateurs.",
       "landscape": "printIt_landscape.webp",
       "screenshot": "printIt_screen.webp",
-      "link_projet": "https://printit_portfolio@zaaine.com",
+      "link_projet": "https://printit.portfolio@zaaine.com",
       "Link_Git": "https://github.com/zaaine/Print.IT-JS_zaaine.git"
     },
     {
@@ -118,7 +118,7 @@
       "livraison": "Le site 724 Events a été stabilisé grâce à l'identification et à la correction des principaux bugs, améliorant ainsi l'expérience utilisateur globale. La mise en place de tests unitaires et end-to-end a permis de garantir la fiabilité des fonctionnalités critiques, réduisant significativement le risque de dysfonctionnements. De plus, l'optimisation du code a rendu le site plus performant et plus facile à maintenir, facilitant ainsi les futures mises à jour et extensions. Les tests automatisés ont également accéléré le processus de développement en permettant des déploiements plus sûrs et plus fréquents.",
       "landscape": "724events_landscape.webp",
       "screenshot": "724events_screen.webp",
-      "link_projet": "https://724events_portfolio@zaaine.com",
+      "link_projet": "",
       "Link_Git": "https://github.com/zaaine/724Events.git"
     }
   ]
