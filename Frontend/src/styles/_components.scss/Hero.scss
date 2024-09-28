@@ -108,3 +108,10 @@
     width: 90%;
   }
 }
+
+@media (min-width: 2000px) {
+  .hero_texts {
+    position: relative;
+    top: 23rem;
+  }
+}
