@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Tooltip, IconButton } from "@chakra-ui/react";
 import { FaLinkedin, FaMedium, FaGithub, FaDownload } from "react-icons/fa";
-import Profile from "../assets/profile.JPG";
+import Profile from "../assets/profile.png";
 import "../styles/_components.scss/Hero.scss";
 
 export default function Hero() {
