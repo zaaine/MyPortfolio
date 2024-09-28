@@ -41,13 +41,12 @@ export default function Cards({ project }) {
       key={project.id}
       maxW={{ base: "100%", sm: "sm", md: "md", lg: "lg" }}
       m="4"
-      height="30rem"
-      width="25rem"
+      height="auto"
+      width="auto"
       css={css`
         @media (max-width: 400px) {
-          height: 34rem;
+          height: auto;
           width: 100%;
-          margin-left: 4rem;
         }
       `}
     >
@@ -80,14 +79,15 @@ export default function Cards({ project }) {
       <CardFooter>
         <ButtonGroup
           spacing="2"
-          mt={2}
+          mt="1rem"
+          mb="1rem"
           display="inline-flex"
-          justifyContent="center"
+          justifyContent="space-around"
           alignItems="baseline"
           alignContent="center"
           flexDirection="row"
           width="100%"
-          gap="15%"
+          p="1"
         >
           <Button variant="solid" colorScheme="blue" onClick={goToDescription}>
             Description

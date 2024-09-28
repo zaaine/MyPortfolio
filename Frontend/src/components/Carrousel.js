@@ -33,10 +33,18 @@ export default function Carrousel({ projects }) {
     currentIndex + projectsPerPage,
   );
 
+  const scrollToPortfolio = () => {
+    const portfolioSection = document.getElementById("portfolio");
+    if (portfolioSection) {
+      portfolioSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   // Aller au groupe suivant de projets
   const nextProjects = () => {
     if (currentIndex + projectsPerPage < projects.length) {
       setCurrentIndex(currentIndex + projectsPerPage);
+      scrollToPortfolio();
     }
   };
 
@@ -44,6 +52,7 @@ export default function Carrousel({ projects }) {
   const prevProjects = () => {
     if (currentIndex > 0) {
       setCurrentIndex(currentIndex - projectsPerPage);
+      scrollToPortfolio();
     }
   };
 

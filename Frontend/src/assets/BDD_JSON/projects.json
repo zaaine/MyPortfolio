@@ -29,7 +29,7 @@
       "name": "ArgentBank",
       "description": "L'application bancaire sécurisée pour vos transactions financières.",
       "image": "ArgentBank.webp",
-      "languages": ["HTML", "CSS", "React", "API network"],
+      "languages": ["HTML", "CSS", "React", "API"],
       "Link_Git": "https://github.com/zaaine/ArgentBank-website"
     },
     {

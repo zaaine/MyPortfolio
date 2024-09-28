@@ -63,8 +63,14 @@
 
 @media (max-width: $layout-breakpoint-medium) {
   .hero_container {
-    flex-wrap: wrap;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: auto;
+    width: auto;
+    gap: 4rem;
+    text-align: justify;
+    margin: 6rem 1rem;
   }
   .hero_button {
     margin-top: 1rem;
@@ -80,11 +86,14 @@
   }
 }
 @media (max-width: $layout-breakpoint-small) {
-  .hero_container {
-    gap: 7rem;
-  }
   .hero_text .hero_subtitle {
     font-size: auto;
+    p {
+      margin-bottom: 1.4rem;
+      font-size: larger;
+      line-height: 1.5rem;
+      text-align: justify;
+    }
   }
 }
 
