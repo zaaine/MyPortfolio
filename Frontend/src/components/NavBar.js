@@ -98,7 +98,7 @@ export default function NavBar() {
           </Tooltip>
         </Button>
         <Flex alignItems={"center"}>
-          <Stack direction={"row"} spacing={7}>
+          <Stack direction={"row"} spacing={7} className="stack_btns">
             {isLargerThanMD ? (
               <>
                 {isAboutPage ? (

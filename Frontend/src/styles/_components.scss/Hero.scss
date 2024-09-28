@@ -7,11 +7,10 @@
   align-content: center;
   justify-content: center;
   align-items: flex-start;
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-left: 15%;
   height: auto;
   width: 80%;
-  gap: 4rem;
 
   .hero_image {
     border-radius: 50%;
@@ -103,5 +102,9 @@
       font-size: large;
       padding: 0rem;
     }
+  }
+
+  .hero_container .hero_image.hero_image {
+    width: 90%;
   }
 }
