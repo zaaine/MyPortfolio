@@ -71,7 +71,7 @@ export default function Hero() {
           <Tooltip label="Télécharger mon CV" aria-label="Télécharger mon CV">
             <IconButton
               as="a"
-              href="../assets/cvDev_zaaineAziz.pdf"
+              href="/assets/cvDev_zaaineAziz.pdf"
               download="Aziz-CV.pdf"
               aria-label="Télécharger CV"
               icon={<FaDownload />}
