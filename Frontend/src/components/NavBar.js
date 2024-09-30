@@ -111,16 +111,27 @@ export default function NavBar() {
                   </Button>
                 )}
 
-                <Button variant="ghost" onClick={scrollToPortfolio}>
+                <Button
+                  variant="ghost"
+                  onClick={scrollToPortfolio}
+                  aria-label="infobulle portfolio"
+                >
                   Portfolio
                 </Button>
-                <Button variant="ghost" onClick={handleEmail}>
+                <Button
+                  variant="ghost"
+                  onClick={handleEmail}
+                  aria-label="infobulle contact"
+                >
                   Contact
                 </Button>
               </>
             ) : null}
 
-            <Button onClick={toggleColorMode}>
+            <Button
+              onClick={toggleColorMode}
+              aria-label="Changer le mode d'affichage"
+            >
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
 
@@ -130,6 +141,7 @@ export default function NavBar() {
                   as={IconButton}
                   icon={<HamburgerIcon />}
                   onClick={onOpen}
+                  aria-label="Ouvrir le menu"
                 />
                 <Drawer placement="top" onClose={onClose} isOpen={isOpen}>
                   <DrawerOverlay />

@@ -62,6 +62,7 @@ export default function Cards({ project }) {
           borderRadius="lg"
           height="210px"
           width="100%"
+          loading="lazy"
         />
         <Stack mt="6" spacing="3" flexGrow="1">
           {" "}
@@ -89,7 +90,13 @@ export default function Cards({ project }) {
           width="100%"
           p="1"
         >
-          <Button variant="solid" colorScheme="blue" onClick={goToDescription}>
+          <Button
+            variant="solid"
+            colorScheme="blue"
+            // color="#000000"
+            // bg="#205688"
+            onClick={goToDescription}
+          >
             Description
           </Button>
           <a href={project.Link_Git} target="_blank" rel="noopener noreferrer">

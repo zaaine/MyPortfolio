@@ -2,21 +2,27 @@
 
 # Directive générale pour tous les robots
 User-agent: *
-# Bloquer l'accès aux répertoires sensibles
+# Bloquer l'accès aux répertoires sensibles utilisés uniquement pour le développement
 Disallow: /admin/
 Disallow: /src/
 Disallow: /components/
 Disallow: /node_modules/
-Disallow: /public/
-Disallow: /build/
 Disallow: /scripts/
 
-# Bloquer l'accès à des pages spécifiques non pertinentes
+# Laisser Googlebot et d'autres moteurs accéder aux fichiers publics nécessaires
+Allow: /public/
+Allow: /build/
+
+# Bloquer des pages spécifiques non pertinentes
 Disallow: /private-page/
 Disallow: /temp/
 
-# Autoriser l'accès à toutes les autres pages
+# Autoriser l'accès à toutes les autres pages importantes
 Allow: /
 
-# Indiquer l'emplacement du sitemap
+# Directives spécifiques pour Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Indiquer l'emplacement du sitemap pour aider Google à trouver toutes les pages à indexer
 Sitemap: https://portfolio.zaaine.com/sitemap.xml

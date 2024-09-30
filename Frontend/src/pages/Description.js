@@ -58,6 +58,7 @@ export default function Description() {
           src={landscapeImage}
           alt={`${project.name} Landscape`}
           className="description-image_landscape"
+          loading="lazy"
         />
       )}
       <h1 className="description_title">{project.name}</h1>
@@ -89,6 +90,7 @@ export default function Description() {
             src={screenshotImage}
             alt={`${project.name} Screenshot`}
             className="description-image_screenshot"
+            loading="lazy"
           />
         )}
       </div>
