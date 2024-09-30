@@ -17,7 +17,7 @@ export default function Hero() {
       <img src={Profile} className="hero_image" alt="Mon profile" />
       <div className="hero_texts">
         <h1 className="hero_title">ZAAINE Aziz</h1>
-        <p className="hero_subtitle"> Développer Web Frontend </p>
+        <p className="hero_subtitle"> Développeur Web Frontend </p>
         <p className="hero_text">
           Basé à Paris, je développe des sites créatifs et performants, toujours
           à la recherche de solutions simples et efficaces.
@@ -71,7 +71,7 @@ export default function Hero() {
           <Tooltip label="Télécharger mon CV" aria-label="Télécharger mon CV">
             <IconButton
               as="a"
-              href="/assets/cvDev_zaaineAziz.pdf"
+              href="/assets/cv_zaaineAziz_DevWeb.pdf"
               download="Aziz-CV.pdf"
               aria-label="Télécharger CV"
               icon={<FaDownload />}
